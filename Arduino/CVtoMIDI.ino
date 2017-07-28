@@ -48,7 +48,7 @@ void loop() {
     last_note = note;
 
     MIDInote(note, 127);
-    digitalWrite(13, HIGH // On-board LED on
+    digitalWrite(13, HIGH); /* On-board LED on */
   }
     
   /* Turn the gate off if it's on */
