@@ -1,0 +1,19 @@
+Parts List:
+
+1 x Aruino Uno or Clone
+1 x Prototype Circuit Board
+2 x 220 ohm resistor
+2 x 3.5mm female mono panel-mount jack
+1 x 5-pin DIN female jack (MIDI jack)
+    panel mounting hardware for MIDI jack (if applicable)
+1 x Project box (approx. 4 x 2.5 x 1 inches)
+
+Connections:
+
+(1) DIN jack, pin 2: to Arduino ground
+(2) DIN jack, pin 4: through 220 ohm resistor, to +5V, 
+(3) DIN jack, pin 5: through 220 ohm resistor, to Arduino TX
+(4) 3.5mm jack #1, sleeve: to Arduino ground
+(5) 3.5mm jack #1, tip: to Arduino digital pin 7 (GATE)
+(6) 3.5mm jack #2, sleeve: to Arduino ground
+(7) 3.5mm jack #2, tip: to Arduino analog pin 0 (CV)
